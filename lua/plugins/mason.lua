@@ -12,6 +12,7 @@ return {
         "eslint-lsp",
         "flake8",
         "json-lsp",
+        "spectral-language-server",
         "prettier",
         "shellcheck",
         "shfmt",

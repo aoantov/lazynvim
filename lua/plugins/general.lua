@@ -1,10 +1,13 @@
 --  Basic Plugins
 return {
+  -- Zen mode
   {
     "folke/zen-mode.nvim",
     cmd = "ZenMode",
     keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
   },
+
+  -- CSS Coloring
   {
     "norcalli/nvim-colorizer.lua",
     event = "BufEnter",
@@ -15,4 +18,7 @@ return {
   -- Database of Tpope
   { "tpope/vim-dadbod" },
   { "kristijanhusak/vim-dadbod-ui" },
+
+  -- Git Tpope
+  { "tpope/vim-fugitive" },
 }

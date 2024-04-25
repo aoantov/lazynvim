@@ -3,23 +3,39 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
-        "bash",
-        "html",
-        "javascript",
-        "java",
+        -- Git
         "git_rebase",
         "gitcommit",
         "gitignore",
-        "json",
-        "lua",
-        "markdown",
-        "markdown_inline",
-        "python",
+        "git_config",
+
+        -- Terraform
+        "terraform",
+        "hcl",
+
+        -- Frontend
+        "html",
+        "javascript",
         "css",
-        "query",
-        "regex",
         "tsx",
         "typescript",
+
+        -- Python
+        "python",
+
+        -- Markdown
+        "markdown",
+        "markdown_inline",
+
+        -- Java
+        "java",
+
+        -- General
+        "bash",
+        "json",
+        "lua",
+        "query",
+        "regex",
         "vim",
         "yaml",
       },
