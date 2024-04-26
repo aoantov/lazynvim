@@ -30,6 +30,9 @@ return {
         -- Java
         "java",
 
+        -- Haskell
+        "haskell",
+
         -- General
         "bash",
         "json",
