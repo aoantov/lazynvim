@@ -21,4 +21,5 @@ return {
 
   -- Git Tpope
   { "tpope/vim-fugitive" },
+  { "akinsho/git-conflict.nvim", config = true },
 }

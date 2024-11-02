@@ -11,7 +11,7 @@ return {
         desc = "Toggle harpooned files list",
       },
       {
-        "<leader>:",
+        "<leader>.",
         function()
           require("harpoon.mark").add_file()
         end,

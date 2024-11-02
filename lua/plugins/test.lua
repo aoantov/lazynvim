@@ -10,7 +10,7 @@ return {
   },
   {
     "nvim-neotest/neotest",
-    dependencies = { "nvim-neotest/nvim-nio", "nvim-neotest/neotest-jest" },
+    dependencies = { "nvim-neotest/nvim-nio", "nvim-neotest/neotest-jest", "marilari88/neotest-vitest" },
     opts = {
       -- Can be a list of adapters like what neotest expects,
       -- or a list of adapter names,
@@ -18,6 +18,9 @@ return {
       -- The adapter will then be automatically loaded with the config.
       adapters = {
         ["neotest-jest"] = {
+          jestCommand = "npm run test --",
+        },
+        ["neotest-vitest"] = {
           jestCommand = "npm run test --",
         },
       },
