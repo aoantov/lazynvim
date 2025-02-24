@@ -8,6 +8,11 @@ return {
         "clangd",
         "cpplint",
 
+        -- Go
+        "gopls",
+        "golangci-lint",
+        "crlfmt",
+
         -- General
         "eslint-lsp",
         "flake8",

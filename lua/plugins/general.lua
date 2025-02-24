@@ -6,7 +6,6 @@ return {
     cmd = "ZenMode",
     keys = { { "<leader>z", "<cmd>ZenMode<cr>", desc = "Zen Mode" } },
   },
-
   -- CSS Coloring
   {
     "norcalli/nvim-colorizer.lua",
@@ -15,11 +14,11 @@ return {
     ft = { "css" },
   },
 
-  -- Database of Tpope
+  -- Database
   { "tpope/vim-dadbod" },
   { "kristijanhusak/vim-dadbod-ui" },
 
-  -- Git Tpope
+  -- Git
   { "tpope/vim-fugitive" },
   { "akinsho/git-conflict.nvim", config = true },
 }
