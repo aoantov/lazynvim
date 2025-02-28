@@ -1,6 +1,7 @@
 return {
   {
     "williamboman/mason.nvim",
+    version = "1.10.0",
     opts = {
       ensure_installed = {
         -- C++
@@ -17,8 +18,8 @@ return {
         "eslint-lsp",
         "flake8",
         "json-lsp",
-        "spectral-language-server",
         "prettier",
+        "prettierd",
         "shellcheck",
         "shfmt",
 
