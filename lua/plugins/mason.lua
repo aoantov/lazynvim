@@ -18,6 +18,7 @@ return {
         "eslint-lsp",
         "flake8",
         "json-lsp",
+        "yaml-language-server",
         "prettier",
         "prettierd",
         "shellcheck",

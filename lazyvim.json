@@ -1,7 +1,8 @@
 {
   "extras": [
     "lazyvim.plugins.extras.dap.core",
-    "lazyvim.plugins.extras.lang.markdown"
+    "lazyvim.plugins.extras.lang.markdown",
+    "lazyvim.plugins.extras.lang.terraform"
   ],
   "install_version": 7,
   "news": {
@@ -9,3 +10,4 @@
   },
   "version": 8
 }
+
