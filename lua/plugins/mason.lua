@@ -36,13 +36,6 @@ return {
         -- Typescript
         "typescript-language-server",
 
-        -- Java
-        "java-debug-adapter",
-        "java-test",
-        "jdtls",
-        "lombok-nightly",
-        "openjdk-17",
-
         -- Terraform
         "terraform-ls",
         "tflint",
