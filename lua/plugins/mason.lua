@@ -35,6 +35,7 @@ return {
 
         -- Typescript
         "typescript-language-server",
+        "js-debug-adapter",
 
         -- Terraform
         "terraform-ls",
