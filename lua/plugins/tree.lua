@@ -41,6 +41,7 @@ return {
         "regex",
         "vim",
         "yaml",
+        "nix",
       },
     },
   },
