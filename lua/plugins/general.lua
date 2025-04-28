@@ -10,4 +10,10 @@ return {
   -- Git
   { "tpope/vim-fugitive" },
   { "akinsho/git-conflict.nvim", config = true },
+  {
+    "vinnymeller/swagger-preview.nvim",
+    cmd = { "SwaggerPreview", "SwaggerPreviewStop", "SwaggerPreviewToggle" },
+    build = "npm i",
+    config = true,
+  },
 }
