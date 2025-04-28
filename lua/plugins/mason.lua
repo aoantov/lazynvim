@@ -23,6 +23,7 @@ return {
         "prettierd",
         "shellcheck",
         "shfmt",
+        "fixjson",
 
         -- Lua
         "lua-language-server",
