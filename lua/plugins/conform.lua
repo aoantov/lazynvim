@@ -8,7 +8,7 @@ return {
         nix = { "nixfmt" },
         javascript = { "prettierd", "prettier", stop_after_first = true },
         lua = { "stylua" },
-        json = { "fixjson" },
+        json = { "prettierd", "prettier", stop_after_first = true },
       },
     },
   },
