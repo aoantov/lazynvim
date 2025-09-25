@@ -11,6 +11,7 @@ return {
   {
     "nvim-neotest/neotest",
     dependencies = { "nvim-neotest/nvim-nio", "nvim-neotest/neotest-jest", "marilari88/neotest-vitest" },
+    version = "5.7.0",
     opts = {
       -- Can be a list of adapters like what neotest expects,
       -- or a list of adapter names,
