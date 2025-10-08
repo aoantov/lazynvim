@@ -7,7 +7,6 @@ return {
   },
   {
     "catppuccin/nvim",
-    version = "1.11.0",
   },
 
   -- change trouble config
