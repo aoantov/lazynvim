@@ -38,6 +38,7 @@ return {
 
         -- Typescript
         "typescript-language-server",
+        "tailwindcss-language-server",
         "js-debug-adapter",
 
         -- Terraform
