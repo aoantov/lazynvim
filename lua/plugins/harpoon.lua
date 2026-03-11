@@ -1,4 +1,3 @@
---  Basic Plugins
 return {
   {
     "ThePrimeagen/harpoon",

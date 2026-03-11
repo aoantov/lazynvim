@@ -44,6 +44,7 @@ return {
         -- Terraform
         "terraform-ls",
         "tflint",
+        "terraform",
       },
     },
   },

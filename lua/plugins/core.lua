@@ -1,4 +1,5 @@
 return {
+  -- Colorsheme
   {
     "LazyVim/LazyVim",
     opts = {

@@ -9,7 +9,12 @@ return {
 
   -- Git
   { "tpope/vim-fugitive" },
-  { "akinsho/git-conflict.nvim", config = true },
+  {
+    "akinsho/git-conflict.nvim",
+    config = true,
+    version = "*",
+    keys = { { "<leader>gkl", "<cmd>GitConflictListQf<cr>", desc = "List conflicts" } },
+  },
 
   -- Swagger Preview
   {

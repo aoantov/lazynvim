@@ -9,6 +9,8 @@ return {
         javascript = { "prettierd", "prettier", stop_after_first = true },
         lua = { "stylua" },
         json = { "prettierd", "prettier", stop_after_first = true },
+        go = { "crlfmt", stop_after_first = true },
+        terraform = { "terraform" },
       },
     },
   },
