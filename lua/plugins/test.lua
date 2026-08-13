@@ -10,8 +10,13 @@ return {
   },
   {
     "nvim-neotest/neotest",
-    dependencies = { "nvim-neotest/nvim-nio", "nvim-neotest/neotest-jest", "marilari88/neotest-vitest" },
-    version = "5.7.0",
+    dependencies = {
+      "nvim-neotest/nvim-nio",
+      "nvim-neotest/neotest-jest",
+      "marilari88/neotest-vitest",
+      "nvim-neotest/neotest-python",
+    },
+    version = "*",
     opts = {
       -- Can be a list of adapters like what neotest expects,
       -- or a list of adapter names,
@@ -23,6 +28,9 @@ return {
         },
         ["neotest-vitest"] = {
           jestCommand = "npm run test --",
+        },
+        ["neotest-python"] = {
+          python = ".venv/bin/python",
         },
       },
       -- Example for loading neotest-go with a custom config
