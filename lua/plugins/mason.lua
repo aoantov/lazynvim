@@ -31,20 +31,20 @@ return {
         "stylua",
 
         -- Python
-        "pyright",
+        --"pyright",
 
         -- CSS
-        "css-lsp",
+        -- "css-lsp",
 
         -- Typescript
-        "typescript-language-server",
-        "tailwindcss-language-server",
-        "js-debug-adapter",
+        -- "typescript-language-server",
+        -- "tailwindcss-language-server",
+        -- "js-debug-adapter",
 
         -- Terraform
-        "terraform-ls",
-        "tflint",
-        "terraform",
+        -- "terraform-ls",
+        -- "tflint",
+        -- "terraform",
       },
     },
   },
