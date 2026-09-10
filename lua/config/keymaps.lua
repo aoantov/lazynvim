@@ -8,3 +8,6 @@ vim.keymap.set("n", "<leader>]", "<cmd>BufferLineCycleNext<cr>", { desc = "Switc
 
 -- Git conflict
 vim.keymap.set("n", "<leader>gkl", "<cmd>GitConflictListQf<cr>", { desc = "List conflicts" })
+
+-- PWarp
+vim.keymap.set("n", "<leader>sp", "<cmd>Warp<cr>", { desc = "Warp to project" })
